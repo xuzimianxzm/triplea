@@ -1,3 +1,13 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url 'https://maven.aliyun.com/repository/gradle-plugin'
+        }
+        gradlePluginPortal()
+    }
+}
 rootProject.name='triplea'
 include 'game-app:ai'
 include 'game-app:domain-data'
